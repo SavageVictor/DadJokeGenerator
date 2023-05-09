@@ -1,0 +1,13 @@
+﻿@page
+@model IndexModel
+@{
+	ViewData["Title"] = "Dad Joke Generator";
+}
+
+<h1>Dad Joke Generator</h1>
+
+<p>@Model.DadJoke</p>
+
+<form method="post">
+	<input type="submit" value="Generate Joke" style="background-color: #4CAF50; color: white; border: none; padding: 12px 20px; font-size: 1em; cursor: pointer;" />
+</form>
